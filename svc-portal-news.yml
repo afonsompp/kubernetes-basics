@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: portal-noticias
+    app: portal-news
   ports:
   - port: 80
     nodePort: 30000
