@@ -24,6 +24,13 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 30 
             failureThreshold: 3
+          resources:  
+            requests:
+              cpu: "10m"
+              memory: "124Mi"
+            limits:
+              cpu: "11m"
+              memory: "150Mi"
   selector:
     matchLabels:
       app: portal-news
